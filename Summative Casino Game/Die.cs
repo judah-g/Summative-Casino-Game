@@ -11,7 +11,7 @@ namespace Summative_Casino_Game
         private Random _generator;
         private int _roll;
 
-        public Die(int _roll)
+        public Die()
         {
             _generator = new Random();
             _roll = _generator.Next(1, 7);
